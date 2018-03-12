@@ -21,5 +21,4 @@ NFinder'a;
 - Varsayılan Asistan Uygulaması olarak ayarlayarak Home Tuşuna Uzun basarakta istediğin
 yerden hızlıca erişim sağlayabilirsin.
 
-esef.berfu@gmail.com
-esef.berfu@hotmail.com
+esef.berfu@gmail.com - esef.berfu@hotmail.com
