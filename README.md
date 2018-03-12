@@ -22,5 +22,4 @@ NFinder'a;
 yerden hızlıca erişim sağlayabilirsin.
 
 esef.berfu@gmail.com
-twitter.com/n__finder
-instagram.com/n__finder
+esef.berfu@hotmail.com
