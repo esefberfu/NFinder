@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">Uygulama</string>
+    <string name="applications">Uygulamalar</string>
+    <string name="music">Müzik</string>
+    <string name="photo">Resim</string>
+    <string name="video">Video</string>
+    <string name="files">Dosyalar</string>
+    <string name="file">Dosya</string>
+    <string name="contacts">Rehber</string>
+    <string name="doc">Belge</string>
+
+    <string name="app_name">NFinder</string>
+    <string name="show_more">Daha Fazla</string>
+    <string name="show_less">Daha Az</string>
+    <string name="date_modified">Düzenlenme Tarihi </string>
+    <string name="file_type">Dosya Tipi </string>
+    <string name="size">Boyut</string>
+    <string name="favourites">Hızlı Erişim</string>
+    <string name="recents">Yakınlarda</string>
+    <string name="finder">Finder</string>
+    <string name="call">Ara</string>
+    <string name="sms">SMS</string>
+    <string name="add_favourite">Favorilere Ekle</string>
+    <string name="remove_favourite">Favorilerden Kaldır</string>
+    <string name="last_added_music">Müzikler</string>
+    <string name="last_added_documents">Belgeler</string>
+    <string name="favourite_contacts">Favori Kişiler</string>
+    <string name="favourite_apps">Favori Uygulamalar</string>
+    <string name="recently_used_apps">Son Kullanılan Uygulamalar</string>
+    <string name="share">PAYLAŞ</string>
+    <string name="call_log">Arama kayıtları</string>
+    <string name="app_info">Uygulama Özellikleri</string>
+    <string name="connection_error">Bağlantı Hatası</string>
+
+    * DETAIL MUSIC */
+    <string name="file_name">Dosya ismi</string>
+    <string name="file_path">Dosya Yolu</string>
+    <string name="album">Albüm</string>
+    <string name="artist">Sanatçı</string>
+    <string name="composer">Yazar</string>
+    <string name="track">Track</string>
+    <string name="duration">Süre</string>
+    <string name="year">Yıl</string>
+    <string name="type">Belge Tipi</string>
+
+    /* CATEGORY */
+    <string name="apps">Uygulamalar</string>
+    <string name="musics">Müzikler</string>
+    <string name="document">Belgeler</string>
+
+    * POPU MENU */
+    <string name="settings">Ayarlar</string>
+    <string name="about">Hakkında</string>
+
+    /* SETTINGS */
+    <string name="sort_categories">Kategorileri Sırala</string>
+    <string name="one_touch_call">Tek Dokunma ile Arama</string>
+    <string name="one_touch_call_comment">Devre Dışı iken Kişi Detaylarını Açar</string>
+    <string name="finder_page_settings">Finder Sayfası Ayarları</string>
+    <string name="recent_page_settings">Yakınlarda Sayfası Ayarları</string>
+    <string name="show_notification_icon">Bildirim Çubuğunda Göster</string>
+    <string name="start_nfinder">NFinder Uygulamasını Başlat</string>
+    <string name="start_tutorial">Uygulama Özelliklerini Öğren</string>
+    <string name="set_default_app">Varsayılan Asistan Uygulaması Olarak Ayarla</string>
+    <string name="set_default_1">1. "Yardım Uygulaması" Seçeneğine Dokun</string>
+    <string name="set_default_2">2. Açılan Listeden "NFinder Uygulamasını Seç</string>
+    <string name="set_default_3">3. Home Tuşuna Uzun Bas ve NFinderı başlat</string>
+    <string name="set_default_assist_app">Varsayılan Asistan Uygulamasını Seç</string>
+    <string name="find_everything">Herşeyi Bul</string>
+    <string name="next">İleri</string>
+    <string name="before">Geri</string>
+    <string name="finish">Bitir</string>
+    <string name="share_app">Uygulamayı Paylaş</string>
+</resources>

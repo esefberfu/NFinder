@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.neta.nfinder.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:minHeight="?attr/actionBarSize"/>
+
+        <ImageView
+            android:id="@+id/button_options"
+            android:layout_weight="1"
+            android:layout_width="80dp"
+            android:padding="10dp"
+            android:layout_height="fill_parent"
+            android:background="@color/blue"
+            android:tint="@color/white_dark"
+            android:src="@drawable/dots"/>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/toolbar"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">App</string>
+    <string name="applications">Applications</string>
+    <string name="music">Music</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="files">Files</string>
+    <string name="file">File</string>
+    <string name="contacts">Contact</string>
+    <string name="doc">Doc</string>
+
+
+    <string name="app_name">NFinder</string>
+    <string name="show_more">Show More</string>
+    <string name="show_less">Show Less</string>
+    <string name="date_modified">Date Modified: </string>
+    <string name="file_type">File Type: </string>
+    <string name="size">Size: </string>
+    <string name="favourites">Favorite</string>
+    <string name="recents">Recents</string>
+    <string name="finder">Finder</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="add_favourite">Add to Favorite</string>
+    <string name="remove_favourite">Remove from Favorite</string>
+    <string name="last_added_music">Musics</string>
+    <string name="last_added_documents">Recent Documents</string>
+    <string name="favourite_contacts">Favorite Contacts</string>
+    <string name="favourite_apps">Favorite Apps</string>
+    <string name="recently_used_apps">Recently Used Apps</string>
+    <string name="share">SHARE</string>
+    <string name="call_log">Call Log</string>
+    <string name="app_info">App Info</string>
+    <string name="connection_error">CONNECTION ERROR</string>
+
+    /* DETAIL */
+    <string name="file_name">File Name</string>
+    <string name="file_path">File Path</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="composer">Composer</string>
+    <string name="track">Track</string>
+    <string name="duration">Duration</string>
+    <string name="year">Year</string>
+    <string name="type">Type</string>
+
+    /* CATEGORY */
+    <string name="apps">Apps</string>
+    <string name="musics">Musics</string>
+    <string name="document">Documents</string>
+
+    * POPU MENU */
+    <string name="settings">Options</string>
+    <string name="about">About</string>
+
+    /* SETTINGS */
+    <string name="sort_categories">Sort Categories</string>
+    <string name="one_touch_call">One Touch Call</string>
+    <string name="one_touch_call_comment">Open Contact Detail when Disable</string>
+    <string name="finder_page_settings">Finder Page Settings</string>
+    <string name="recent_page_settings">Recent Page Settings</string>
+    <string name="show_notification_icon">Show Notification</string>
+    <string name="start_nfinder">Start NFinder</string>
+    <string name="start_tutorial">Start Tutorial</string>
+    <string name="set_default_app">Set As Default Assist App</string>
+    <string name="set_default_1">1. Touch Assist App</string>
+    <string name="set_default_2">2. Choose NFinder</string>
+    <string name="set_default_3">3. Long Press Home Button and Start NFinder</string>
+    <string name="set_default_assist_app">Set Default Assist App</string>
+    <string name="find_everything">Find Everything</string>
+    <string name="next">Next</string>
+    <string name="before">Before</string>
+    <string name="finish">Finish</string>
+    <string name="share_app">Share This App</string>
+</resources>

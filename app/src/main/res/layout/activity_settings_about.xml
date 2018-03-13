@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/blue"
+              android:paddingTop="50dp"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="13pt"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sürüm 1.2.1"
+        android:textSize="9pt"
+        android:textColor="@color/white_ddark"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esef Berfu Şentürk"
+        android:textSize="8pt"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İstanbul Medeniyet Üniversitesi\nElektrik - Elektronik Mühendisliği"
+        android:textSize="6pt"
+        android:textColor="#c5c5c5"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="esef.berfu@gmail.com"
+        android:textSize="8pt"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="twitter.com/n__finder"
+        android:textSize="8pt"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="instagram.com/n__finder"
+        android:textSize="8pt"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+</LinearLayout>

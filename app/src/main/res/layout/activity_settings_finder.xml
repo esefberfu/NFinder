@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/finder_page_settings"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:paddingLeft="10dp"
+        android:background="@color/blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_dark"
+        android:text="@string/sort_categories"
+        android:textColor="@color/view_name_and_sub_text"
+        android:textSize="7pt"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/parent">
+
+    </LinearLayout>
+
+
+</LinearLayout>

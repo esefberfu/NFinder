@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/fragment_finder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white_dark"
+        android:foregroundGravity="center"
+        android:padding="8dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cancel_button_border"
+            android:paddingLeft="5dp"
+            android:paddingRight="0.5dp"
+            android:stretchColumns="1">
+
+            <TableRow android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/_search"
+                    android:backgroundTint="@color/gray"/>
+
+                <EditText
+                    android:id="@+id/find_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLines="1"
+                    android:textColor="#000000"
+                    android:textSize="7pt"/>
+
+                <ImageView
+                    android:id="@+id/button_cancel"
+                    android:layout_width="50dp"
+                    android:layout_height="38dp"
+                    android:src="@drawable/_cancel"
+                    android:tint="@color/view_name_and_sub_text"
+                    android:padding="8dp"
+                    android:background="@drawable/cancel_button"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Cancel"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+
+                <ImageView
+                    android:id="@+id/button_voice"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:src="@drawable/_voice_record"
+                    android:tint="@color/view_name_and_sub_text"
+                    android:background="@drawable/cancel_button"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+                <ImageView
+                    android:id="@+id/button_options"
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:src="@drawable/arrow_right"
+                    android:tint="@color/view_name_and_sub_text"
+                    android:background="@drawable/cancel_button"
+                    android:clickable="true"
+                    android:padding="7dp"
+                    android:gravity="center"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/favourite_contact"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/parent_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:isScrollContainer="true"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TableLayout
+            android:id="@+id/view_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:background="@color/white_dark"
+            android:orientation="horizontal"
+            android:stretchColumns="*"
+            android:visibility="visible">
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkbox_app"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/apps"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_contact"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/contacts"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_music"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/music"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_photo"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/photo"
+                    android:textColor="@color/view_name_and_sub_text"/>
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/checkbox_video"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/video"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_doc"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/doc"
+                    android:textColor="@color/view_name_and_sub_text"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_file"
+                    android:layout_height="38dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/files"
+                    android:textColor="@color/view_name_and_sub_text"/>
+            </TableRow>
+
+        </TableLayout>
+    </FrameLayout>
+
+</RelativeLayout>
